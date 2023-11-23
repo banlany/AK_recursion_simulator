@@ -1,0 +1,124 @@
+body{
+    border: 2px solid;
+    border-color: black;
+    background-color: whitesmoke;
+}
+#title{
+    font-size: 150%;
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    margin:0 auto;
+    line-height: 100px;
+    text-align: center;
+}
+#change{
+    margin-left: 30px;
+}
+#lucky{
+    font-size: 150%;
+    line-height: 100px;
+    height:100px;
+    text-align: right;
+    margin-right: 100px;
+}
+#pro{
+    height: 60px;
+    font-size: 125%;
+    text-align: right;
+    margin-right: 100px;
+}
+#ld{
+    width:25px;
+}
+#result{
+    display: flex;
+    margin: auto;
+    width: 75%;
+    height:75px;
+    background-color:whitesmoke;
+    border: 1px solid;
+    border-color: white;
+}
+#button1{
+    background-color: aliceblue;
+    width: 75%;
+    height:150px;
+    margin: auto;
+    display: flex;
+}
+.try{
+    height: 75%;
+    width: 33%;
+    text-align: center;
+    font-size: 200%;
+}
+#try1{
+    background-color:rgb(222,219,221) ;
+    border: 1px solid;
+    border-color: black;
+}
+#try1:hover{
+    background-color:rgb(169,166,168) ;
+}
+
+#try10{
+    background-color:rgb(205,181,41) ;
+    border: 1px solid;
+    border-color: black;
+}
+#try10:hover{
+    background-color: rgb(166,143,16);
+}
+#clean{
+    background-color: whitesmoke;
+    border: 1px solid;
+    border-color: white;
+}
+#clean:hover{
+    background-color: rgb(232, 228, 230);
+}
+#uplist{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+}
+#data{
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    height: auto;
+}
+#data_words_box{
+    background-color: rgba(100, 100, 100, 0.884);
+    color:ghostwhite;
+    font-size: 150%;
+}
+.rank6{
+    color: rgb(255,202,44);
+}
+.rank5{
+    color: rgb(255,248,163);
+}
+.rank4{
+    color: rgb(170,172,228);
+}
+.rank3{
+    color: rgb(191,191,191);
+}
+#limitedup{
+    display: none;
+}
+#gy_data{
+    display: none;
+}
+#getResult{
+    height:150px;
+}
+.resultB{
+    height: 150px;
+    width: 50px;
+    background-color: white;
+    color: white;
+    text-align: center;
+}

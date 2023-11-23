@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <link rel="icon" href="ico/head.ico" type="error" />
+    <script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="scripts/scripts.js" defer></script>
+    <link href="styles/style.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="网页实践" content="测试网页编写" />
+    <title>明日方舟 寻访模拟</title>
+</head>
+<body>
+    <head id="head1">
+        <p id="title">明日方舟寻访</p>
+    </head>
+    <label id="change" for="upselect">
+        Choose the UP!    
+    </label>
+    <select id="upselect" name="up">
+        <option value="no">--选择UP卡池(默认卡池：枯焰生花)--</option>
+        <option value="limited">限定卡池：云间清醒梦</option>
+        <option value="one-up">单UP：射落灾异的风暴</option>
+        <option value="two-up">双UP：灵知、空弦UP</option>
+    </select>
+    <div id="lucky">
+        <label id="luck_label" for="luck_data">
+            输入幸运值！(范围为0-10，默认为5)
+        </label>
+        <input id="ld" name="luck_data" placeholder="5">
+        <input id="luck_submit" type="submit" value="确认" >
+    </div>
+    <div id="pro">当前6星出现概率：<span id="proNow">2.00</span>% </div>
+    <div id="getResult">
+        <div id="result">
+
+        </div>
+    </div>
+    <div id="button1">
+        <span id="try1" class="try" >
+            <p>寻访一次</p>
+        </span>
+        <span id="try10" class="try" >
+            <p>寻访十次</p>
+        </span>
+        <span id="clean" class="try">
+            <p>清除</p>
+        </span>
+    </div>
+    <hr>
+    <div id="list">
+        <div id="uplist">
+            ★★★★★★出率上升：占全体6★的<span id="up1">50</span>% <div id="uplist6" class="rank6">焰影苇草</div>
+            <hr>
+            <div id="limitedup">
+                ★★★★★★限定出率上升：剩下6★的30%概率中以5倍权重上升<div id="uplimit6" class="rank6"></div>
+            <hr>
+            </div>
+            ★★★★★出率上升：占全体5★的<span id="up2">50</span>%<div id="uplist5" class="rank5">和弦/天火</div>
+            <hr>
+        </div>
+    </div>
+    <div id="data">
+        <div id="data_words_box">寻访统计</div>
+        <div>
+            <p>
+                寻访次数:
+                <span id="xf_times">0</span>
+            </p>
+        </div>
+        <hr>
+        <p>三星干员（★★★）：<span id="r3_get" class="rank3">0</span>-------rate：<span id="rate3">0.00</span>%</p>
+        <p>四星干员（★★★★）：<span id="r4_get" class="rank4">0</span>-------rate：<span id="rate4">0.00</span>%</p>
+        <p>五星干员（★★★★★）：<span id="r5_get" class="rank5">0</span>-------rate：<span id="rate5">0.00</span>%</p>
+        <p>六星干员（★★★★★★）：<span id="r6_get" class="rank6">0</span>-------rate：<span id="rate6">0.00</span>%</p>
+        <hr>
+        <p>距离上一次六星：<span id="last_r6">0</span></p>
+        <hr>
+    </div>
+    <div id="gy_data">
+        <div id="result1" class="resultB"><div></div></div>
+        <div id="result2" class="resultB"><div></div></div>
+        <div id="result3" class="resultB"><div></div></div>
+        <div id="result4" class="resultB"><div></div></div>
+        <div id="result5" class="resultB"><div></div></div>
+        <div id="result6" class="resultB"><div></div></div>
+        <div id="result7" class="resultB"><div></div></div>
+        <div id="result8" class="resultB"><div></div></div>
+        <div id="result9" class="resultB"><div></div></div>
+        <div id="result10" class="resultB"><div></div></div>
+    </div>
+</body>
